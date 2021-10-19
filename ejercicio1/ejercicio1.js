@@ -4,8 +4,8 @@
  *  sin iva y el algoritmo debe retornar el valor final.
  */
 
-let valor = Number(prompt("Ingrese el precio:"))
-let iva = 19
-let valorFinal = (valor * (iva/100)) + valor
+let valor = Number(prompt("Ingrese el precio:"));
+let iva = 19;
+let valorFinal = (valor * (iva/100)) + valor;
 
-document.write(valorFinal)
+document.write("Tiene un valor de: " + valorFinal)
